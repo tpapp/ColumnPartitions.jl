@@ -1,0 +1,14 @@
+name = "ColumnPartitions"
+uuid = "314e602f-973e-5369-b9c8-8f2d313970c4"
+authors = ["Tamas K. Papp <tkpapp@gmail.com>"]
+version = "0.1.0"
+
+[deps]
+ArgCheck = "dce04be8-c92d-5529-be00-80e4d2c0e197"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
+
+[targets]
+test = ["Test", "Statistics"]
